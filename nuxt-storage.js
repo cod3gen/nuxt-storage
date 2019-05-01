@@ -2,6 +2,7 @@ import {
   getData as getDataLocal,
   setData as setDataLocal,
   removeItem as removeItemLocal,
+  clearKeys as clearKeysLocal,
   clear as clearLocal
 } from './src/local-storage'
 
@@ -17,6 +18,7 @@ export default {
     getData: getDataLocal,
     setData: setDataLocal,
     removeItem: removeItemLocal,
+	clearKeys: clearKeysLocal,
     clear: clearLocal
   },
   sessionStorage: {
